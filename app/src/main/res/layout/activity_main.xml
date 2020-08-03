@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/padding_common"
-    tools:context=".MainActivity">
+    tools:context=".activites.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/task.list.recycler.view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -15,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/add.note.floating.action.button"
+        android:id="@+id/add.task.floating.action.button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/margin_common"
